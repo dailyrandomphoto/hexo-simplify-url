@@ -31,7 +31,8 @@ hexo.extend.helper.register('simplify_url', function(url) {
  * Auto redirect on client for these cases.
  * http://yoursite.com/page => http://yoursite.com/page/
  * http://yoursite.com/page/index.html => http://yoursite.com/page/
+ * http://yoursite.com/page/index => http://yoursite.com/page/
  */
 hexo.extend.helper.register('simplify_url_auto_redirect', function() {
-	return '<script>!function(){var a=location.pathname;a&&"/"!==a.substr(-1)&&(location.pathname=a.replace(/\/index.html|$/,"/"))}();</script>';
+	return '<script>!function(){var a=location.pathname;a&&"/"!==a.substr(-1)&&(location.pathname=a.replace(/\\/index(.html)?|$/,"/"))}();</script>';
 });

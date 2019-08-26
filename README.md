@@ -1,8 +1,12 @@
 # hexo-simplify-url
 [![Downloads](https://img.shields.io/npm/dm/hexo-simplify-url.svg)](https://www.npmjs.com/package/hexo-simplify-url) [![npm](https://img.shields.io/npm/v/hexo-simplify-url.svg)](https://www.npmjs.com/package/hexo-simplify-url) [![LICENSE](https://img.shields.io/npm/l/hexo-simplify-url.svg)](LICENSE)
 
-Simplify url for pages and links.
+Simplify url for pages and links.  
 You could use this module for your SEO of blog powered by hexo.
+
+If you don't want to see `/index.html` in your urls, use `simplify_url` helper.
+
+If you don't want your users see `/index.html` or `/index` in the address bar of browsers, use `simplify_url_auto_redirect` helper.
 
 ## Installation
 ```
