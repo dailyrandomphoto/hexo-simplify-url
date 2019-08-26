@@ -1,0 +1,25 @@
+{
+  "name": "hexo-simplify-url",
+  "version": "0.0.1",
+  "description": "Simplify url for pages and links.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dailyrandomphoto/hexo-simplify-url.git"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "seo",
+    "url"
+  ],
+  "author": "dailyrandomphoto <dailyrandomphoto@gmail.com> (https://www.dailyrandomphoto.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dailyrandomphoto/hexo-simplify-url/issues"
+  },
+  "homepage": "https://github.com/dailyrandomphoto/hexo-simplify-url#readme"
+}
