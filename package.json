@@ -1,6 +1,6 @@
 {
   "name": "hexo-simplify-url",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simplify url for pages and links.",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,7 @@
 # hexo-simplify-url
-[![Downloads](https://img.shields.io/npm/dm/hexo-simplify-url.svg)](https://www.npmjs.com/package/hexo-simplify-url) [![npm](https://img.shields.io/npm/v/hexo-simplify-url.svg)](https://www.npmjs.com/package/hexo-simplify-url) [![LICENSE](https://img.shields.io/npm/l/hexo-simplify-url.svg)](LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/hexo-simplify-url.svg)](https://www.npmjs.com/package/hexo-simplify-url)
+[![NPM Downloads](https://img.shields.io/npm/dm/hexo-simplify-url.svg)](https://www.npmjs.com/package/hexo-simplify-url)
+[![LICENSE](https://img.shields.io/npm/l/hexo-simplify-url.svg)](LICENSE)
 
 Simplify url for pages and links.  
 You could use this module for your SEO of blog powered by hexo.
@@ -23,6 +25,7 @@ Use `simplify_url` to remove `index.html` in the links.
 
 <%- simplify_url(open_graph({ ... })) %>
 ```
+Notice: From hexo@4.0, use `pretty_urls` option can remove `index.html` from permalink. (https://github.com/hexojs/hexo/pull/3691)
 
 ### simplify_url_auto_redirect
 Add a `simplify_url_auto_redirect` helper simply to your html's `<head>` block as follows:
@@ -32,4 +35,4 @@ Add a `simplify_url_auto_redirect` helper simply to your html's `<head>` block a
 ```
 
 ## License
-Copyright (c) 2019 dailyrandomphoto. Licensed under the [MIT license](https://github.com/dailyrandomphoto/hexo-simplify-url/blob/master/LICENSE).
+Copyright (c) 2019 dailyrandomphoto. Licensed under the [MIT license](LICENSE).
